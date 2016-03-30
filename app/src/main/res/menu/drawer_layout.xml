@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_nav_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_timeline"
+            android:icon="@drawable/ic_nav_timeline"
+            android:title="Timeline" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_nav_about"
+            android:title="About" />
+    </group>
+
+    <item android:title="Social">
+        <menu>
+            <item
+                android:id="@+id/nav_website"
+                android:icon="@drawable/ic_nav_website"
+                android:title="Website" />
+            <item
+                android:id="@+id/nav_facebook"
+                android:icon="@drawable/ic_nav_facebook"
+                android:title="Facebook" />
+            <item
+                android:id="@+id/nav_twitter"
+                android:icon="@drawable/ic_nav_twitter"
+                android:title="Twitter" />
+        </menu>
+
+    </item>
+
+
+</menu>
